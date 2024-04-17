@@ -13,8 +13,8 @@ stages:
     steps:
     - script: echo building frontend app
       displayName: build frontend app
-    - script: echo running unit tests for frontend app
-      displayName: unit tests frontend
+    # - script: echo running unit tests for frontend app
+    #   displayName: unit tests frontend
 
 #   - job: BuildBackendApp
 #     displayName: Build Backend App
